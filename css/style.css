@@ -46,6 +46,16 @@ main{
     width: 100%;
 }
 
+h1{
+    color: var(--sptfy-primary);
+    margin: .8rem;
+}
+
+
+[class^="col_2"]{
+    
+}
+
 /* #endregion common */
 
 
@@ -81,6 +91,26 @@ main{
     font-size: 1rem;
 
 }
+
+.flex_col{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.cnt_container{
+
+    width: 95%;
+    margin: auto;
+
+}
+
+.col_2{
+    width: calc(100% / 12 * 2);
+    
+}
+
 
 /* .side_border{
     border-left: 2px solid var(--sptfy-spoty);
@@ -224,9 +254,50 @@ main{
 /* #region content */
 
     .content{
-        height: 80vh;
+        /* height: 80vh; */
         width: 100%;
 
+    }
+
+    .gender{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        gap: 1rem;
+        width: 100%;
+
+        .gender_name{
+            align-items: center;
+
+            a{
+                color: var(--sptfy-light);
+            }
+
+        }
+
+    }
+
+    .gender_selection{
+        margin: .5rem;
+        width: 1.5rem;
+        
+    }
+
+    .gender_name:hover{
+        color: var(--sptfy-primary);
+
+        a{
+            color: var(--sptfy-primary);
+        }
+
+        .gender_selection{
+            border-top: 2px solid var(--sptfy-spoty);
+        }
+    }
+
+    .recent_play{
+        margin: 1rem;
+        gap: 1.6rem;
     }
 
 /* #endregion content */
