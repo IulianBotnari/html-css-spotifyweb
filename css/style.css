@@ -1,0 +1,60 @@
+
+/* #region common */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --sptfy-primary: #ffffff;
+    --sptfy-secondary: #000000;
+    --sptfy-dark: #080b12;
+    --sptfy-mid-dark: #282828;
+    --sptfy-light: #7b7d82;
+    --sptfy-lighter: #d2d2d2;
+    --sptfy-spoty: #adff2f;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* #endregion common */
+
+
+/* #region utility */
+.txt_primary{
+    color: var(--sptfy-primary);
+}
+.txt_light{
+    color: var(--sptfy-light);
+}
+
+.bg_secondary{
+    background-color: var(--sptfy-secondary);
+}
+
+.bg_dark{
+    background-color: var(--sptfy-dark);
+}
+
+.bg_mid_dark{
+    background-color: var(--sptfy-mid-dark);
+}
+
+.bg_light{
+    background-color: var(--sptfy-light);
+}
+
+
+/* #endregion utilty */
+
+
+
