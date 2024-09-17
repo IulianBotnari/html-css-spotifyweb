@@ -78,7 +78,16 @@ main{
     background-color: var(--sptfy-light);
 }
 
+.fnt_sz{
+    font-size: 1rem;
 
+}
+
+.side_border{
+    border-left: 2px solid var(--sptfy-spoty);
+
+
+}
 
 /* #endregion utilty */
 
@@ -87,16 +96,29 @@ main{
 .side_bar{
     display: flex;
     flex-direction: column;
-    width: 100px;
+    width: 200px;
     height: calc(100vh - 10vh);
+    
+    .home, .search, .library{
+        margin: .4rem 0rem
+    }
 }
 
 .logo{
     display: flex;
     align-self: flex-start;
-    padding: .5rem;
-
+    padding: 1rem;
+    
 }
+
+.playlist{
+    margin-top: 1rem;
+}
+
+.new_playlist, .nome_playlist{
+    margin: .5rem 0rem;
+}
+
 
 
 /* #endregion side bar */
@@ -111,15 +133,15 @@ main{
     }
 
     .upgrade{
-        font-size: .4rem;
-        padding: .2rem .9rem;
+        font-size: 1rem;
+        padding: .5rem 1.5rem;
         border: 1px solid var(--sptfy-primary);
         border-radius: 10px;
 
     }
 
     .upgrade:active{
-        font-size: .5rem;
+        font-size: 1.5rem;
     }
     
 /* #endregion up bar */
