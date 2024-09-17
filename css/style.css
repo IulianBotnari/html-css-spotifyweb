@@ -56,6 +56,13 @@ h1{
     
 }
 
+h3{
+    color: var(--sptfy-primary);
+    margin-top: 1rem;
+    margin-bottom: .6rem;
+    text-align: center;
+}
+
 /* #endregion common */
 
 
@@ -231,7 +238,8 @@ h1{
         width: 100%;
         display: flex;
         justify-content: flex-end;
-        align-items: center;    
+        align-items: center;   
+        position: sticky; 
     }
 
     .upgrade{
@@ -254,8 +262,9 @@ h1{
 /* #region content */
 
     .content{
-        /* height: 80vh; */
+        height: 80vh;
         width: 100%;
+        overflow-y: scroll;
 
     }
 
@@ -300,6 +309,21 @@ h1{
         gap: 1.6rem;
     }
 
+    .selection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        span{
+            color: var(--sptfy-light);
+        }
+    }
+
+    .tips{
+        margin-left: .8rem;
+        color: var(--sptfy-light);
+    }
+
 /* #endregion content */
 
 /* #region player */
@@ -307,6 +331,7 @@ h1{
     .player{
         height: 10vh;
         width: 100%;
+        position: sticky;
 
     }
 
