@@ -484,6 +484,7 @@ body{
         width: 100%;
         position: sticky;
         overflow: hidden;
+        bottom: 0;
 
 
     }
