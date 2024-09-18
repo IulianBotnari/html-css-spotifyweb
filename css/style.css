@@ -66,7 +66,6 @@ body{
 
 /* #endregion common */
 
-
 /* #region utility */
 .txt_primary{
     color: var(--sptfy-primary);
@@ -268,9 +267,6 @@ body{
     }
     
 /* #endregion up bar */
-
-
-
 
 /* #region content */
 
@@ -603,8 +599,6 @@ body{
 
 /* #endregion player*/
 
-
-
 /* #region media query 1100 */
 
 @media screen and (max-width:1100px) {
@@ -629,7 +623,6 @@ body{
 }
 
 /* #endregion media query 1100 */
-
 
 /* #region media query 700 */
 @media screen and (max-width:700px) {
@@ -665,7 +658,6 @@ body{
 
 
 /* #endregion media query 700 */
-
 
 /* #region media query 600 */
 
