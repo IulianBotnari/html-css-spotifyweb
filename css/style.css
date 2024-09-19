@@ -362,18 +362,22 @@ body{
         cursor: pointer;
         .play_button1a{
             display: block;
+            background-color: rgba(0, 0, 0, 0.5);
             width: 100%;
             position: absolute;
             top: 0;
             left: 0;
         }
+
     
     }
+
 
     .play_button2:hover{
         cursor: pointer;
         .play_button2a{
             display: block;
+            background-color: rgba(0, 0, 0, 0.5);
             width: 100%;
             position: absolute;
             top: 0;
@@ -386,6 +390,7 @@ body{
         cursor: pointer;
         .play_button3a{
             display: block;
+            background-color: rgba(0, 0, 0, 0.5);
             width: 100%;
             position: absolute;
             top: 0;
@@ -398,6 +403,7 @@ body{
         cursor: pointer;
         .play_button4a{
             display: block;
+            background-color: rgba(0, 0, 0, 0.5);
             width: 100%;
             position: absolute;
             top: 0;
@@ -410,6 +416,7 @@ body{
         cursor: pointer;
         .play_button5a{
             display: block;
+            background-color: rgba(0, 0, 0, 0.5);
             width: 100%;
             position: absolute;
             top: 0;
@@ -422,6 +429,7 @@ body{
         cursor: pointer;
         .play_button6a{
             display: block;
+            background-color: rgba(0, 0, 0, 0.5);
             width: 100%;
             position: absolute;
             top: 0;
@@ -434,6 +442,7 @@ body{
         cursor: pointer;
         .play_button7a{
             display: block;
+            background-color: rgba(0, 0, 0, 0.5);
             width: 100%;
             position: absolute;
             top: 0;
@@ -445,6 +454,7 @@ body{
         cursor: pointer;
         .play_button8a{
             display: block;
+            background-color: rgba(0, 0, 0, 0.5);
             width: 100%;
             position: absolute;
             top: 0;
@@ -456,6 +466,7 @@ body{
         cursor: pointer;
         .play_button9a{
             display: block;
+            background-color: rgba(0, 0, 0, 0.5);
             width: 100%;
             position: absolute;
             top: 0;
@@ -467,6 +478,7 @@ body{
         cursor: pointer;
         .play_button10a{
             display: block;
+            background-color: rgba(0, 0, 0, 0.5);
             width: 100%;
             position: absolute;
             top: 0;
